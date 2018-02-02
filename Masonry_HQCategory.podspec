@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "Masonry_HQCategory"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "Masonry_HQCategory"
   s.description  = <<-DESC
   Masonry_HQCategory.
@@ -22,5 +22,6 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/LiuHuanQing/Masonry_HQCategory.git", :tag => s.version.to_s }
   s.source_files  = "Classes", "Classes/**/*.{h,m}"
   s.exclude_files = "Classes/Exclude"
-
+  s.framework  = "Masonry"
+  s.dependency "Masonry"
 end
