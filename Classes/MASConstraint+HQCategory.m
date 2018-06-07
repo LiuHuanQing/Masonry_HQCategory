@@ -18,8 +18,8 @@ static CGFloat _HQMASHeightRatio = 0;
 
 + (void)load
 {
-    _HQMASHeightRatio = ([[UIScreen mainScreen] bounds].size.width / _HQMASDesignWidth);
-    _HQMASWidthRatio = ([[UIScreen mainScreen] bounds].size.height / _HQMASDesignHeight);
+    _HQMASWidthRatio = ([[UIScreen mainScreen] bounds].size.width / _HQMASDesignWidth);
+    _HQMASHeightRatio = ([[UIScreen mainScreen] bounds].size.height / _HQMASDesignHeight);
 }
 
 - (MASConstraint * (^)(CGFloat))hq_offset {
