@@ -14,5 +14,5 @@
 - (MASConstraint * (^)(CGFloat))hq_offset;
 
 - (MASConstraint * (^)(id))hq_equalTo;
-- (void)setDesignSize:(CGSize)size;
++ (void)setDesignSize:(CGSize)size;
 @end

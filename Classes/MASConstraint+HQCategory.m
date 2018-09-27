@@ -60,12 +60,12 @@ static CGFloat _HQMASHeightRatio = 0;
     };
 }
 
-- (void)setDesignSize:(CGSize)size
++ (void)setDesignSize:(CGSize)size
 {
     _HQMASDesignWidth = size.width;
     _HQMASDesignHeight = size.height;
     
-    _HQMASWidthRatio = ([[UIScreen mainScreen] bounds].size.width / _HQMASDesignWidth);
-    _HQMASHeightRatio = ([[UIScreen mainScreen] bounds].size.height / _HQMASDesignHeight);
+    _HQMASWidthRatio = (_HQMASDesignWidth / _HQMASDesignWidth);
+    _HQMASHeightRatio = (_HQMASDesignHeight / _HQMASDesignHeight);
 }
 @end
