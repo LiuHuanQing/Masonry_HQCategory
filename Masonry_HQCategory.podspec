@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "Masonry_HQCategory"
-  s.version      = "0.0.5"
+  s.version      = "0.0.6"
   s.summary      = "Masonry_HQCategory"
   s.description  = <<-DESC
   Masonry_HQCategory.
